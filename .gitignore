@@ -1,0 +1,77 @@
+# Ignore build output folders
+bin/
+obj/
+out/
+publish/
+
+# Ignore user-specific files and settings
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs and temporary files
+*.log
+*.pid
+*.swo
+*.swp
+*.tmp
+
+# Ignore Visual Studio temporary files
+*.tss.cache
+*.vs
+
+# Ignore .NET project lock and package files
+project.lock.json
+project.fragment.lock.json
+*.lock.json
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore compiled files and debug output
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.so
+*.dylib
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Docker-related files (optional)
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore global JetBrains Rider settings
+.idea/
+
+# Ignore SQLite and other local databases
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Ignore coverage files
+coverage/
+coverage*.json
+*.opencover.xml
+*.lcov
+
+# Ignore test result files
+TestResults/
+*.trx
+.trx
+*.coverage
+.coverage
+
+# Ignore generated code analysis files
+/.sonarqube/
